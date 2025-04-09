@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <div class="game-container" id="game-container"></div>
+    <h1 class="gameName">Memory Card Game</h1>
+    <div id="timer">Time Left: 120</div>
+    <div id="attempts">Attempts Left: 20</div>
+    <button id="restart" style="display: none;">Restart Game</button>
+    <div id="message"></div>
+    <br>
+    <section class="memory-game">
+
+        <div class="memory-card" data-framework="apple">
+            <img class="front-face" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="apple">
+            <img class="front-face" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="banana">
+            <img class="front-face" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg" alt="Banana">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="banana">
+            <img class="front-face" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg" alt="Banana">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="grape">
+            <img class="front-face" src="https://banner2.cleanpng.com/20240112/rep/transparent-fruit-purple-grapes-grape-vine-cluster-of-grapes-g-cluster-of-purple-grapes-on-black-1710923732462.webp" alt="Grape">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="grape">
+            <img class="front-face" src="https://banner2.cleanpng.com/20240112/rep/transparent-fruit-purple-grapes-grape-vine-cluster-of-grapes-g-cluster-of-purple-grapes-on-black-1710923732462.webp" alt="Grape">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="earth">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20241211/yi/eb4e1af3c03bb19546a13daca097a2.webp" alt="Earth">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="earth">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20241211/yi/eb4e1af3c03bb19546a13daca097a2.webp" alt="Earth">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="glass">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20241215/sl/7e1614c65c9f137bf21dbced0ea7da.webp" alt="Glass">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="glass">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20241215/sl/7e1614c65c9f137bf21dbced0ea7da.webp" alt="Glass">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="strawberry">
+            <img class="front-face" src="https://freepngimg.com/thumb/cherry/11-red-cherry-png-image-download.png" alt="Strawberry">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="strawberry">
+            <img class="front-face" src="https://freepngimg.com/thumb/cherry/11-red-cherry-png-image-download.png" alt="Strawberry">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="smile">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20240902/jf/47c5399be5830573f80c2431f526fc.webp" alt="Smile">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="smile">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20240902/jf/47c5399be5830573f80c2431f526fc.webp" alt="Smile">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="cup">
+            <img class="front-face" src="https://banner2.cleanpng.com/20231027/ecj/transparent-coffee-cup-coffee-cup-and-saucer-with-yellow-1711044790765.webp" alt="Cup">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="cup">
+            <img class="front-face" src="https://banner2.cleanpng.com/20231027/ecj/transparent-coffee-cup-coffee-cup-and-saucer-with-yellow-1711044790765.webp" alt="Cup">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="cat">
+            <img class="front-face" src="https://banner2.cleanpng.com/cb3/aje/jfw/as8j0j6at.webp" alt="Cat">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="cat">
+            <img class="front-face" src="https://banner2.cleanpng.com/cb3/aje/jfw/as8j0j6at.webp" alt="Cat">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="low-smile">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20240510/beq/avj8oylrz.webp" alt="low-smile">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+        <div class="memory-card" data-framework="low-smile">
+            <img class="front-face" src="https://banner2.cleanpng.com/lnd/20240510/beq/avj8oylrz.webp" alt="low-smile">
+            <img class="back-face" src="https://banner2.cleanpng.com/20180411/tdq/avf1ght5z.webp" alt="Memory Card">
+        </div>
+
+    </section>
+</body>
+</html>
