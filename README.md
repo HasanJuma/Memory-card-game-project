@@ -24,8 +24,11 @@ The game includes:
 
 ## Getting Started
 
+### Planning Materials:
+**GitHub repo link:** : https://github.com/HasanJuma/Memory-card-game-project
+
 ### Play the Game:
-[Deployed Game Link](https://hasanjuma.github.io/Memory-card-game-project/)
+**Deployed the game** : https://hasanjuma.github.io/Memory-card-game-project/
 
 ## Technologies Used
 - HTML
@@ -66,11 +69,6 @@ Some planned improvements and features for the future:
 - As a **user**, I want the **cards to flip with a nice animation** so that **the game feels smooth and fun to interact with**.
 
 - As a **user**, I want the **visuals to be colorful and clear** so that **I can easily recognize and match the images**.
-
-# Memory Card Game
-
-A classic memory matching game built using HTML, CSS, and JavaScript.  
-Players must match pairs of cards within a time and attempt limit.
 
 ---
 
