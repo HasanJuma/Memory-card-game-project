@@ -1,6 +1,16 @@
 # Memory Card Game
 
-![Game Screenshot or Logo](./IMGAES/screenshot.png)
+## Screenshots :
+
+### Game Interface
+![Game Screenshot or Logo](./IMAGES/screenshot.png)
+
+### Wining Message :
+![Wining Message](./IMAGES/Won-message.png)
+
+### Lose Message :
+**No Attempts** ![lose Message](./IMAGES/Lose-No-attempts.png)
+**Time Is Up** ![lose Message](./IMAGES/Lose-time-is-up.png)
 
 ## Description
 
