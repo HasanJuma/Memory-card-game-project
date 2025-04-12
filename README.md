@@ -14,13 +14,21 @@
 
 ## Description
 
-**Memory Card Game** is a fun and interactive game that challenges your memory skills. The player is presented with a flexbox of face-down cards, and the objective is to match all the pairs before the time or attempts run out. I chose to create this game because it's a classic game that many enjoy and it's a great way to practice DOM manipulation, event handling, and working with timers in JavaScript.
+**Memory Card Game:** is a fun and interactive game that challenges your memory skills. The player is presented with a flexbox of face-down cards, and the objective is to match all the pairs before the time or attempts run out. 
 
 The game includes:
 - A countdown timer (120 seconds)
 - A limited number of attempts (20 tries)
 - A restart button that appears upon winning or losing
 - Fun and colorful card images
+
+**Background Info:**
+Inspired by classic memory games, Memory Card is suitable for all ages and enhances memory skills while encouraging social interaction. Its customizable themes make it a versatile choice for gatherings and family fun.
+
+**Reason:** 
+I chose Memory Game because it is a fun and easy game for all ages. It helps improve memory skills and encourages people to play together. 
+
+
 
 ## Getting Started
 
